@@ -15,15 +15,16 @@ void test_const_1(){
 
     /* 这两种本质上是一样的 */
     const int x = 10;
-    int const y = 20;
+
     int *p2_x = (int*)&x;
     printf("&x:   %p\n", &x);
     printf("p2_x: %p\n", p2_x);
-
     *p2_x = 1000;
     printf("const int x = %d\n", x);
     printf("int *p2_x = %d\n", *p2_x);
 
+
+    int const y = 20;
 
     int *p2_y = (int*)&y;
     printf("&y:   %p\n", &y);
