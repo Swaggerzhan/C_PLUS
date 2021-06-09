@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" serverName="lyun">
     <serverData>
-      <paths name="new_linux_agent (40b8ca7d-a65e-4ae3-880d-6783b45c30d2)">
+      <paths name="Lyun (84616a08-ba3d-41c3-9fe5-5944d3b2aac3)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.5iwT1Cr131" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.iIDbQJ5xa8" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-lyun" />
           </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="lyun">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/c_plus" local="$PROJECT_DIR$" web="/" />
+          </mappings>
         </serverdata>
       </paths>
     </serverData>

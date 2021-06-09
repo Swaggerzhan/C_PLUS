@@ -1,3 +1,5 @@
 cmake-build-debug/
+cmake-build-debug-new_linux_agent/
+cmake-build-debug-lyun/
 cmake-build-debug-system/
 .idea/
